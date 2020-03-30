@@ -8,6 +8,7 @@ before_install:
 
 script:
   - docker run -e CI=true pilje/docker-react npm run test -- --coverage
+<<<<<<< HEAD
 
 deploy:
   edge: true
@@ -21,3 +22,5 @@ deploy:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
+=======
+>>>>>>> c9b9041e7132d58a8d0a51beac43c8ed58552938
